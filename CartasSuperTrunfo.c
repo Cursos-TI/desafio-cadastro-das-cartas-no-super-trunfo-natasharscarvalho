@@ -1,3 +1,4 @@
+# include <stdio.h>
 // Desafio Super Trunfo - Países
 // Calcular a Densidade Populacional
 // Calcular o PIB per capita
@@ -15,7 +16,6 @@ int main() {
     float pibpercapita1, pibpercapita2; 
     float superpoder1, superpoder2;
 
- 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
@@ -141,7 +141,7 @@ int main() {
     if ((superpoder1 > superpoder2) == 1) {
         printf("Super Poder: Carta 1 venceu (%d) \n", (superpoder1 > superpoder2));
     } else {
-        printf("Super Poder: Carta 2 venceu (%d) \n\n", (superpoder1 > superpoder2));
+        printf("Super Poder: Carta 2 venceu (%d) \n", (superpoder1 > superpoder2));
     }
 
     return 0;
